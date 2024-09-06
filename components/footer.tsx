@@ -2,7 +2,7 @@ import { CoinsIcon, Home, Link, Wallet } from "lucide-react";
 
 const Footer = () => {
   return (
-    <div className="flex justify-evenly items-center fixed bottom-0 w-full h-16 bg-transparent text-white px-4">
+    <div className="flex justify-evenly items-center fixed bottom-0 w-full h-16 mb-3 bg-transparent text-white px-4">
       <div className="footer-menu">
         <Home className="footer-icon" />
       </div>
