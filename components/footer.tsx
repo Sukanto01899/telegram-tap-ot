@@ -1,4 +1,5 @@
-import { CoinsIcon, Home, Link, Wallet } from "lucide-react";
+import { CoinsIcon, Home, Link2, Wallet } from "lucide-react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -12,9 +13,9 @@ const Footer = () => {
       <div className="footer-menu">
         <Wallet className="footer-icon" />
       </div>
-      <div className="footer-menu">
-        <Link className="footer-icon" />
-      </div>
+      <Link href="/invite" className="footer-menu">
+        <Link2 className="footer-icon" />
+      </Link>
     </div>
   );
 };
